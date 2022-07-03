@@ -29,7 +29,7 @@ foreach ($arr[0] as $feed_url) {
 <body>
 <ul>
 <?php foreach ( $summary_arr as $s ) { ?>
-    <li><a href="<?= $s['link'] ?>"><?= htmlspecialchars($s['title']) ?></a>&nbsp;<?= date('Y-m-d H:i:s', strtotime($s['pubDate'])) ?><li>
+    <li><a href="<?= $s['link'] ?>"><?= htmlspecialchars($s['title']) ?></a>&nbsp;<?= date('Y-m-d H:i:s', strtotime($s['pubDate'])) ?></li>
 <?php } ?>
 </ul>
 </body>
