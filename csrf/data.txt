@@ -1,0 +1,12 @@
+test
+test
+123
+123
+csrftest
+password
+asi
+
+csrfトークン設定
+csrfトークン設定
+やり直し
+password
